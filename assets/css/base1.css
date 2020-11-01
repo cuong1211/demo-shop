@@ -1,0 +1,42 @@
+.grip {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grip__fulll-width {
+    width: 100%;
+}
+
+.grip__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grip_column-2 {
+    padding: 0 10px 10px 13px;
+    width: 20%;
+}
+
+.grip_column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+
+.html {
+    line-height: 15px;
+    box-sizing: inherit;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: black;
+    --navbar-height: 45px;
+    --header-height: 210px;
+    --mid-height: 115px;
+    --sticky-height: 50px
+}
+
