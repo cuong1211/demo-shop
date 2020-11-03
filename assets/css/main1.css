@@ -575,7 +575,8 @@
 
    
     .content-2-item:hover {
-        border: 1px solid black;
+        border: 1px solid  #bebebe;
+        border-top: none;
     }
     .main-thumb{
         width: 100%;
@@ -589,8 +590,7 @@
     .content-2-item:hover .main-thumb,  
     .content-2-item:hover .group-hidden{
         display: block;
-        animation: ThumbSpawn ease-in 0.23s;
-        
+        animation: ThumbSpawn ease-in-out 0.23s;
     }
     @keyframes ThumbSpawn {
         from {
@@ -646,8 +646,9 @@
         width: 100%;
         z-index: 1;
         left: 0;
-        display: none;
-        border: 1px solid black;
+       
+        border: 1px solid #bebebe;
+        height: 20%;
         
     }
     
@@ -656,14 +657,32 @@
         padding: 0 10px 25px 10px;
         margin-top: -10px;
         text-align: left;
+        display: flex;
     }
     
     .add {
-        font-size: 13px;
-        padding: 14px;
+        font-size: 11px;
+        padding: 10px;
         margin: 4px 4px 4px 0;
-        text-align: center;
+        justify-content: center;
         border: 1px solid black;
+        display: inline-block;
+    }
+    .logo-heart{
+        
+        padding: 14px;
+        margin: 4px 0 4px 4px;
+        
+        border: 1px solid black;
+        display: inline-block;
+    }
+    .logo-exchange{
+        
+        padding: 14px;
+        margin: 4px 0 4px 4px;
+        
+        border: 1px solid black;
+        display: inline-block;
     }
     /*main-content-3*/
     
